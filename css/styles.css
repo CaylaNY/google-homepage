@@ -118,11 +118,14 @@ a:hover {
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     font-size: 12px;
     font-family: sans-serif;
     background-color: rgb(240, 240, 240);
     height: 30px;   
     padding-bottom: 10px;
+    padding-right: 10px;
     position: fixed;
     bottom: 0px;
     left: 0px;
